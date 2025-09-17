@@ -469,7 +469,8 @@ img {
     }
 
     .contacts_element {
-        padding: 18px;
+        padding-inline: 18px;
+        padding-top: 30px;
     }
 
     .contact_info {
