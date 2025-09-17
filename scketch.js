@@ -1,5 +1,3 @@
-
-
 const { Engine, Body, Bodies, Composite, Constraint, Common, Events, Vector, Render, Runner, Mouse, MouseConstraint } = Matter;
 
 let engine, render, runner;
