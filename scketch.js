@@ -6,6 +6,10 @@ const elementContainer = document.getElementById('animatedHeader');
 const windWidth = elementContainer.clientWidth;
 const windHeight = elementContainer.clientHeight;
 
+window.addEventListener("load", () => {
+  document.body.classList.add("loaded");
+});
+
 
 function setup() {
     noCanvas();
